@@ -1,12 +1,12 @@
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Jost } from "next/font/google";
 import Providers from "@/components/Providers";
 import Navbar from "@/components/Navbar";
 import { Toaster } from "@/components/ui/toaster";
 
-const roboto = Roboto({
+const jost = Jost({
   weight: ['400', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn(roboto.className, "antialiased min-h-screen pt-16")}>
+      <body className={cn(jost.className, "antialiased min-h-screen pt-16")}>
         <Providers>
           <Navbar />
           {children}
