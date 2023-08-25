@@ -18,7 +18,7 @@ const DetailsDialog = (props: Props) => {
   return (
     <Dialog>
       <DialogTrigger>
-        <span className="flex items-center px-2 py-1 text-white rounded-md bg-slate-800">
+        <span className="flex items-center px-2 py-1 text-white rounded-md bg-emerald-500 dark:bg-amber-500">
           What is this
           <HelpCircle className="w-5 h-5 ml-1" />
         </span>
