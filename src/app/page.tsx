@@ -18,14 +18,14 @@ export default async function Home() {
     <div className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
       <Card className="w-[300px]">
         <CardHeader>
-          <CardTitle>Welcome to Fat Cat 🔥!</CardTitle>
+          <CardTitle>Welcome to Fat Cat 😺!</CardTitle>
           <CardDescription>
-            Fat Cat is a platform for creating quizzes using AI!. Get started
+            Fat Cat is an application for creating quizzes using AI!. Start answering quizzes
             by loggin in below!
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <SignInButton text="Sign In with Google" />
+          <SignInButton text="Sign In using Google" />
         </CardContent>
       </Card>
     </div>
